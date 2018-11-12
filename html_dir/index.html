@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='UTF-8'>
+	<title>network_program</title>
+	<script>
+	function show_time()
+	{
+		var today=new Date();
+		var hour=today.getHours();
+		var minute=today.getMinutes();
+		var second=today.getSeconds();
+		document.a.clock.value=today.toString();
+		timer=setTimeout('show_time()',1000);
+	}
+	</script>
+</head>
+	<link rel=stylesheet type="text/css" href="./index.css">
+<body onLoad='show_time()'>
+	<hr size='7' color='black'>
+	<p><a href='index.html'><font face='微軟正黑體' size='7'><b>network_program</b></a>
+	<p><form name='a'>
+		<input type='text' name='clock'>
+	</p></form>
+	<img src="image\0.jpeg" width='300px' height='270px'>
+</body>
+</html>

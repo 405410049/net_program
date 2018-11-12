@@ -1,0 +1,14 @@
+#mydiv{
+		overflow:hidden;
+		width:1200px;
+		background-color:black;
+		target="_BLANK";
+
+}	
+#mydiv img{
+		border: 1px solid;
+		width: 300px;
+} 	
+a{
+	color:black;
+}
